@@ -666,6 +666,9 @@ on property:sys.boot_completed=1
     write /sys/block/dm-0/queue/read_ahead_kb 512
     write /sys/block/sda/queue/read_ahead_kb 512
     write /sys/block/sde/queue/read_ahead_kb 512
+	# Restrict permissions to socket file 
+    # to hide Magisk & co.
+    chmod 440 /proc/net/unix
 
     #Starting perf properly
     setprop vendor.post_boot.parsed 1
