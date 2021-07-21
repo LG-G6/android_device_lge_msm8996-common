@@ -55,6 +55,8 @@ as anyway perflock calls of these resources would fail. -->
         <Config MajorValue="0x5" MinorValue="0xA" Supported="yes" /> <!-- timer_slack -->
         <Config MajorValue="0x5" MinorValue="0xB" Supported="yes" /> <!-- max_freq_hysteresis -->
         <Config MajorValue="0x5" MinorValue="0xC" Supported="yes" /> <!-- use_sched_load -->
+        <Config MajorValue="0x5" MinorValue="0xD" Supported="yes" /> <!-- use_migration_notif -->
+        <Config MajorValue="0x5" MinorValue="0xE" Supported="yes" /> <!-- ignore_hispeed_on_notif -->
         <Config MajorValue="0x5" MinorValue="0xF" Supported="no" />
         <Config MajorValue="0x5" MinorValue="0x10" Supported="no" />
         <Config MajorValue="0x5" MinorValue="0x11" Supported="no" />
