@@ -30,6 +30,9 @@
 # Graphics
 /sys/devices/virtual/graphics/fb[0-2](/.*)?                         u:object_r:sysfs_graphics:s0
 
+# HALs
+/(vendor|system/vendor)/bin/hw/android\.hardware\.power\.stats@1\.0-service\.mock			       u:object_r:hal_power_stats_default_exec:s0
+
 # Init
 /(vendor|system/vendor)/bin/init\.power\.sh                         u:object_r:init_power_exec:s0
 /(vendor|system/vendor)/bin/init\.qcom\.graphics\.sh                u:object_r:init_graphics_exec:s0
