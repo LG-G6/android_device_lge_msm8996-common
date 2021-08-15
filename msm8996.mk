@@ -319,8 +319,8 @@ PRODUCT_PACKAGES += \
 # Power - AIDL
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
-		android.hardware.power.stats@1.0-service.mock \
-		vendor.qti.hardware.perf@2.0.vendor
+    android.hardware.power.stats@1.0-service.mock \
+    vendor.qti.hardware.perf@2.0.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
@@ -448,3 +448,8 @@ PRODUCT_PACKAGES += \
 # CryptfsHW
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
+
+# Prebuilts
+PRODUCT_PACKAGES += \
+    CameraGo \
+    ViaBrowser
