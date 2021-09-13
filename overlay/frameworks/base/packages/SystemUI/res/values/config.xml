@@ -20,6 +20,12 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
 <resources>
+     
+     <!-- Default no. of QS tile rows and columns -->
+    <integer name="config_qs_columns_portrait">3</integer>
+    <integer name="config_qs_rows_portrait">2</integer>
+    <integer name="config_qs_columns_landscape">6</integer>
+    <integer name="config_qs_rows_landscape">2</integer>
 
     <!-- Control whether status bar should distinguish HSPA data icon from UMTS
         data icon on devices -->
