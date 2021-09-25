@@ -198,10 +198,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.rat_on=combine \
     persist.vendor.radio.redir_party_num=1 \
     persist.vendor.radio.sib16_support=1 \
+    persist.vendor.radio.add_power_save=1 \
     ril.subscription.types=NV,RUIM \
     rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
     ro.telephony.call_ring.multiple=false \
-    ro.telephony.use_old_mnc_mcc_format=true \
+    ro.telephony.use_old_mnc_mcc_format=true
 
 # IMS / VoLTE
 PRODUCT_PROPERTY_OVERRIDES += \
