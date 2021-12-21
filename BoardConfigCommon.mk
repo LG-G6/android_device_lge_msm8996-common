@@ -58,7 +58,9 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x02000000
 BOARD_RAMDISK_OFFSET := 0x02200000
 TARGET_KERNEL_SOURCE := kernel/lge/msm8996
-TARGET_KERNEL_CLANG_COMPILE := true
+
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(PWD)/prebuilts/gcc/linux-x86/aarch64/gcc-10.3-aarch64/bin/aarch64-none-elf-
+TARGET_KERNEL_CROSS_COMPILE_PREFIX_ARM32 := $(PWD)/prebuilts/gcc/linux-x86/arm/gcc-10.3-arm/bin/arm-none-eabi-
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true
