@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="screen_gestures_panel_title">Extras</string>
-    <string name="screen_gestures_panel_summary">Carga rápida USB, KCAL</string>
+    <string name="screen_gestures_panel_summary">Carga rápida USB, Pantalla ambiente, KCAL</string>
 
     <!-- Battery -->
     <string name="battery_summary">Batería</string>
@@ -29,6 +29,9 @@
 
     <!-- Display -->
     <string name="graphics_title">Pantalla</string>
+    <string name="device_doze_title">Pantalla ambiente</string>
+
+    <string name="dlm_mode_title">Luz de día</string>
 
     <!-- AOD -->
 
