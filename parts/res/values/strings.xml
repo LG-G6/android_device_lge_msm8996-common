@@ -18,7 +18,7 @@
     <string name="app_name" translatable="false">LGE Settings</string>
 
     <string name="screen_gestures_panel_title">Device Extras</string>
-    <string name="screen_gestures_panel_summary">USB Fast charge, KCAL</string>
+    <string name="screen_gestures_panel_summary">USB Fast charge, Ambient display, KCAL</string>
 
     <!-- Battery -->
     <string name="battery_summary">Battery</string>
@@ -30,6 +30,9 @@
 
     <!-- Display -->
     <string name="graphics_title">Display</string>
+    <string name="device_doze_title" translatable="false">Ambient display</string>
+
+    <string name="dlm_mode_title">Daylight mode</string>
 
     <!-- Kcal -->
     <string name="kcal_title">Display color</string>

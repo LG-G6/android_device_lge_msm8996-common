@@ -17,8 +17,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           android:sharedUserId="android.uid.system"
           package="com.lge.settings.device"
-          android:versionCode="9"
-          android:versionName="2.7" >
+          android:versionCode="6"
+          android:versionName="2.4" >
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
@@ -77,7 +77,6 @@
                 <action android:name="oneplus.intent.action.GESTURE_CAMERA" />
             </intent-filter>
         </receiver>
-        
     </application>
 
 </manifest>
