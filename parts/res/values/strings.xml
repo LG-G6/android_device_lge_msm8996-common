@@ -32,8 +32,6 @@
     <string name="graphics_title">Display</string>
     <string name="device_doze_title" translatable="false">Ambient display</string>
 
-    <string name="dlm_mode_title">Daylight mode</string>
-
     <!-- Kcal -->
     <string name="kcal_title">Display color</string>
     <string name="kcal_summary">Display color calibration using KCAL</string>
