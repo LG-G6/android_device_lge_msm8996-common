@@ -18,7 +18,7 @@
     <string name="app_name" translatable="false">LGE Settings</string>
 
     <string name="screen_gestures_panel_title">Device Extras</string>
-    <string name="screen_gestures_panel_summary">USB Fast charge, KCAL</string>
+    <string name="screen_gestures_panel_summary">USB Fast charge, Ambient display, KCAL</string>
 
     <!-- Battery -->
     <string name="battery_summary">Battery</string>
@@ -28,8 +28,17 @@
     <string name="battery_temp">Battery temperature</string>
     <string name="battery_health">Battery health</string>
 
+    <string name="toast_restart">Restart phone to apply changes</string>
+
     <!-- Display -->
     <string name="graphics_title">Display</string>
+    <string name="device_doze_title">Ambient display</string>
+
+    <string name="dlm_mode_title">Daylight mode</string>
+
+    <!-- AOD -->
+    <string name="aod_backlight_title">AOD backlight type</string>
+    <string name="aod_backlight_summary">You can set preferred backlight</string>
 
     <!-- Kcal -->
     <string name="kcal_title">Display color</string>

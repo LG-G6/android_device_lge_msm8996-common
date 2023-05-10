@@ -59,6 +59,27 @@
                     android:targetClass="com.lge.settings.device.DisplayCalibration" />
         </Preference>
 
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/aod_backlight_type"
+            android:entryValues="@array/aod_backlight_value"
+            android:key="aod"
+            android:summary="@string/aod_backlight_summary"
+            android:title="@string/aod_backlight_title"/>
+
+        <Preference
+            android:key="device_doze"
+            android:persistent="false"
+            android:title="@string/device_doze_title" >
+            <intent android:action="android.intent.action.MAIN"
+                 android:targetPackage="org.lineageos.settings.doze"
+                 android:targetClass="org.lineageos.settings.doze.DozeSettingsActivity"/>
+        </Preference>
+
+        <SwitchPreference
+            android:key="dlm"
+            android:title="@string/dlm_mode_title" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
